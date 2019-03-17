@@ -1,13 +1,20 @@
-﻿using System;
+﻿// Alon Levkovitch, 313545931, group 06
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-public interface IMission
+namespace Excercise_1
 {
-    event EventHandler<double> OnCalculate; // An Event of when a mission is activated
-    String Name { get; }
-    String Type { get; }
-    double Calculate(double value);
+    public interface IMission
+    {
+        event EventHandler<double> OnCalculate; // An Event of when a mission is activated
+
+        String Name { get; }
+
+        String Type { get; }
+
+        double Calculate(double value);
+    }
 }

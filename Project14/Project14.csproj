@@ -37,8 +37,8 @@
   <ItemGroup>
     <Compile Include="ComposedMission.cs" />
     <Compile Include="SingleMission.cs" />
-    <Compile Include="Test.cs" />
-    <Compile Include="FunctionsContainer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="MissionContainer.cs" />
     <Compile Include="IMission.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
